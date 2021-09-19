@@ -88,7 +88,7 @@ precision    recall  f1-score   support
 weighted avg       0.99      0.99      0.99     19384
 
 
-As you can see, the model using the samples data more accurately predicted the values for 1 (high-risk loans).  Since we are trying to predict whether or not a loan will default, it is important to more accurately predict the vales for 1.  I would therefore recommend using the model with the sampled data.  I used the random oversampler in order to minimize the data for 0, since the data for 0 was more than 1 in extreme unbalance.
+As you can see, the model using the samples data more accurately predicted the values for 1 (high-risk loans).  Since we are trying to predict whether or not a loan will default, it is important to more accurately predict the vales for 1.  I would therefore recommend using the model with the sampled data.  I used the random oversampler in order to maximize the data for 1, since the data for 0 was more than 1 in extreme unbalance.
 
 Model 1 Unsampled:
 0    75036
