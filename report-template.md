@@ -31,7 +31,9 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 ## Summary
 Confusion Matrix:
   * According to the confusion matrix the model predicted 18663 actually true, and only 56 false positives.  The false was not as accurate with a prediction of 102 false values that were actually true, and 563 that were false.
-
+[[18663   102]
+ [   56   563]]
+ 
 Acuracy:
   * The F1 score for healthy loan '0' is 1, while unhealthy '1' is .88.  This indicates that the model predicted the testing data accuratelty.  The accuracy score is very high at .99
 
@@ -48,6 +50,8 @@ Recall:
 ## Summary
 Confusion Matrix:
   * According to the confusion matrix the model predicted 18649 actually true, and only 4 false positives.  The false was not as accurate with a prediction of 116 false values that were actually true, and 615 that were false.
+[[18649   116]
+ [    4   615]]
 
 Accuracy:
   * The F1 score for healthy loan '0' is 1, while '1' high-risk loans is .91.  This indicates that the model predicted the testing data accuratelty.  The accuracy score is very high at .99
